@@ -2,7 +2,7 @@ const express = require("express")
 const router = express.Router()
 
 const app = express()
-const porta = 3334
+const porta = 3333
 
 function mostraMulher(request, response){
     response.json({
